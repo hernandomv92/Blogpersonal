@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://hernandomv92.github.io',
-	base: '/BlogPersonal',
+	base: '/Blogpersonal',
 	integrations: [mdx(), sitemap()],
 });
